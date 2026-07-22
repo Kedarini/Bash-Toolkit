@@ -6,6 +6,7 @@ if [ $# -eq 0 ]; then
     echo "Possible arguments:"
     echo "> archive <directory> - Create an archive with logs from your pc default log catalog"
     echo "> memory - Show you used / total disk memory and RAM"
+    echo "> processes - Show 5 heaviest RAM/CPU processes with usage of memory and CPU"
 fi
 
 if [ "$1" == "archive" ]; then
