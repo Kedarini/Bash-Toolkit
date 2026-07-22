@@ -23,3 +23,8 @@ if [ "$1" == "memory" ]; then
     source "commands/memory-usage.sh"
     memory-monitor
 fi
+
+if [ "$1" == "processes" ]; then
+    source "commands/processes.sh"
+    processes
+fi
