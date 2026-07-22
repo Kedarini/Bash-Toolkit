@@ -5,3 +5,4 @@
 ### Possible arguments:
 > archive "directory" - Create an archive with logs from your pc default log catalog
 > memory - Show you used / total disk memory and RAM
+> processes - Show 5 heaviest RAM/CPU processes with usage of memory and CPU 
